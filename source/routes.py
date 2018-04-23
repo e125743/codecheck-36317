@@ -16,7 +16,7 @@ with closing(sqlite3.connect(dbname)) as conn:
     print ('Content-type: text/html; charset=UTF-8')
     print ("\r\n\r\n")
     if ( os.environ['REQUEST_METHOD'] == "GET" ):
-        select_sql = 'select * from users'
+        select_sql = 'select * from recipes'
         c.execute(select_sql)
         data = c.fetchcall()
         print(json.dumps(data))
