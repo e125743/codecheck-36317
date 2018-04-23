@@ -1,7 +1,5 @@
 env:
-  BASE_URL: "ここに有効なドメインを入力してください(例: https://your.domain.com)"
+  BASE_URL: "https://warm-river-53142.herokuapp.com"
 
-url: /recipes
-script: routes.py
 
 test: mocha

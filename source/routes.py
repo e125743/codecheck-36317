@@ -20,4 +20,4 @@ with closing(sqlite3.connect(dbname)) as conn:
         c.execute(select_sql)
         data = c.fetchcall()
         print(json.dumps(data))
-    elif ( os.environ['REQUEST_METHOD'] == "POST" ):
+    #elif ( os.environ['REQUEST_METHOD'] == "POST" ):
