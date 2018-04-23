@@ -1,3 +1,5 @@
+sqlite3 test.db
+
 DROP TABLE IF EXISTS recipes;
 
 CREATE TABLE IF NOT EXISTS recipes (
